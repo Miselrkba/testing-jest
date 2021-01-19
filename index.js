@@ -1,3 +1,4 @@
-module.exports = (num) => `${num}`;
-
-const fizzBuzz = () => console.log(num);
+module.exports = (num) => {
+  if (num % 15 === 0) return 'FizzBuzz';
+  return `${num}`;
+};
